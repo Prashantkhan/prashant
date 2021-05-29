@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Prashant Khanal</title>
+		<link rel="stylesheet" href="css/Blog.css">
+		<script>
+			function startTime() {
+			  var today = new Date();
+			  var h = today.getHours();
+			  var m = today.getMinutes();
+			  var s = today.getSeconds();
+			  m = checkTime(m);
+			  s = checkTime(s);
+			  document.getElementById('txt').innerHTML =
+			  h + ":" + m + ":" + s;
+			  var t = setTimeout(startTime, 1000);
+			}
+			function checkTime(i) {
+			  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+			  return i;
+			}
+			</script>
+		
+	</head>
+
+	
+		
+	<body>
+
+		<header>
+			<nav>
+				<div class = "header">
+					<ul class = "main-nav">
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="CV.html">CV</a></li>
+						<li><a href="research.html">research</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+
+					</ul>
+				</div>			
+			</nav>
+			<header>
+				
+		</header>
+		<section style="font-family: Frutiger; text-align: justify; margin-left: 5vh; margin-right: 5vh; margin-top: 5vh; margin-bottom: 5vh; background: rgba(0,0,0,0.7); padding: 2em; word-spacing: 0.3em; border-radius: 8px; ">
+			<body onload="startTime()" class="time">  <p>Time</p>  <!-- Time script -->
+				<div id="txt"></div><br><br>
+			<h2>Technology</h2>
+
+			<p>Technology can be a powerful tool for transforming learning. It can help affirm and advance relationships between educators and students, reinvent our approaches to learning and collaboration, shrink long-standing equity and accessibility gaps, and adapt learning experiences to meet the needs of all learners. Our schools, community colleges, and universities should be incubators of exploration and invention. Educators should be collaborators in learning, seeking new knowledge and constantly acquiring new skills alongside their students. Education leaders should set a vision for creating learning experiences that provide the right tools and supports for all learners to thrive.
+               However, to realize fully the benefits of technology in our education system and provide authentic learning experiences, educators need to use technology effectively in their practice. Furthermore, education stakeholders should commit to working together to use technology to improve American education. These stakeholders include leaders; teachers, faculty, and other educators; researchers; policymakers; funders; technology developers; community members and organizations; and learners and their families. (tech.ed.gov/netp/introduction.com). </p><br><br>
+
+
+               <h2>Positive aspects of Technology</h2>
+               <p>Firstly, technology has made life easier for human kind in terms of education and work. Ever part of people’s daily lives is linked to technology in one way or the other. It just makes life easier and things quicker. Technology advances make people see how processes can be made actively and efficiently (Lynda Moultry Belcher, n.d.). For instance, by technological improvements of computers, nowadays, education has greatly enhanced. Students are able to learn and take exams by sitting and home and simply using their laptops or computers. This could highly help disabled people, children who live very far away from any school and who are living temporarily abroad. Other than homeschooling, nowadays technology ...
+                   (www.123helpme.com/essay/Positive-Impacts-of-Technology-282320).</p><br><br>
+
+			<h2>Negative aspects of Technology</h2>
+			<p>Advancements in technology today are much like the advancements in manufacturing during the industrial revolution in the 1800’s. Technology drives our economy and has become crucial to communication world wide. At the same time technology has completely changed how we communicate. Americans today spend more time texting, calling and messaging on Instagram, Twitter, Snapchat, Facebook, and Facetime than they spend in face to face conversation. This change took place rapidly over the last few decades and has had an overwhelmingly negative effect on the quantity and quality of communication.()www.cram.com/essay/Negative-Effects-Of-Technology/F39GWU5KGY3Q</p><br><br>
+			<br> <br>
+			<button onclick="readMoreFunction()">Read More...</button>
+			<span class="readmore" style="display: none;">
+		
+			<h2>Conclusion</h2>
+			<p>Progress in many of thes basic computing and information technologies has been rapid in recent years, and the committee does not expect the pace of change to slow down in the foreseeable future. While some technologies are reaching maturity now, many important technologies have enormous future potential. As more of the world’s information is digitized and more people and things are networked, the economics of the digital, networked economy will become ever more important. This includes the ability to make copies of goods and services at almost zero cost and deliver them anywhere on the planet almost instantaneously. Furthermore, digitization of products, services, processes, and interactions makes it possible to measure and manage work with far more precision. Data-driven decision making and machine learning provide vast opportunities for improving productivity, efficiency, accuracy, and innovation.(www.nap.edu/read/24649/chapter/9)</p>
+			</span>
+		</section>
+				
+			<div class="footer-bottom">
+				<p>@Prashant Khanal</p>
+			</div>
+		</footer>
+		<script>
+
+			function readMoreFunction() {
+				const readmore = document.querySelector(".readmore");
+				const button = document.querySelector("button");
+		
+				if (readmore.style.display === "inline"){
+		
+					readmore.style.display = "none";
+					button.style.display = "block";
+				}
+		
+				else {
+					readmore.style.display = "inline";
+					button.style.display = "none";
+				}
+			}
+		
+	</script>
+	</body>
+</html>

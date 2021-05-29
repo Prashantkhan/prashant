@@ -1,0 +1,33 @@
+ .header{  
+	padding: 20px;
+	text-align: center;
+	background: #9aaed3;
+	color: rgb(224, 238, 236);
+	font-size: 30px;
+}
+
+.container{   
+   border-radius: 25px;
+   background-color: hsl(219, 17%, 69%);
+   padding: 40px;
+}
+
+footer{   
+	position: fixed;  
+	bottom: 0;
+	height:40px;
+	width: 100%;
+    font-family: "Gill Sans";
+	background-color: hsl(185, 24%, 70%);
+	color: rgb(39, 21, 21);
+	text-align: center;
+	font-family: Cambria;
+}
+.contact{   /* For image */
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 1%;
+}
+ 

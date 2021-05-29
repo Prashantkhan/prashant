@@ -1,0 +1,153 @@
+
+/*correcting the positions of the contant on the page*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: white;
+	background:url('../image/2.JPG') no-repeat fixed center;
+	background-size: cover;
+}
+.header:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+.header{
+	max-width: 1380px;
+	margin: 0 auto;
+}
+
+
+.main-nav{
+	float: left;
+	margin-top: 50px;
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left:10px;
+}
+
+.main-nav li a{
+	padding: 10px 0;
+	color: rgb(5, 2, 2);
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: 100;
+	
+}
+
+.main-nav li a:hover{
+	border-bottom: 2px solid black;
+}
+
+.footer-main-div{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: rgba(0,0,0,0.7);
+	padding: 20px 0px;
+	
+}
+
+
+.footer-menu-one{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	
+}
+
+.footer-menu-one ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	
+}
+
+.footer-menu-one ul li{
+	display: inline-block;
+	margin: 0px 15px;	
+	
+}
+
+.footer-menu-one ul li a{
+	font-family: arial;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+/*adding hover effect*/
+.footer-menu-one ul li a:hover{
+	color: #F0F8FF;
+}
+.footer-menu-one ul li a:hover{
+	color: #00FF00;
+}
+
+.footer-bottom{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: gray;
+	padding: 10px;
+}
+
+.footer-bottom{
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.footer-bottom p{
+	color: black;
+}
+footer{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: auto;
+	bottom: 0;
+}
+
+section{
+	font-family: cursive;
+	margin-top: 15px;
+	margin-left: 35px;
+	margin-right: 35px;
+	border-radius: 8px;
+	background:  rgba(65, 94, 110, 0.7);
+
+}
+section .body{
+	margin: 0 40px 0 40px ;
+	
+}
+
+
+
+
+
+
+
+
+
+
